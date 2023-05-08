@@ -72,7 +72,7 @@ def pcl_repositories():
         http_archive,
         name = "pcl",
         build_file = "@rules_pcl//third_party:pcl.BUILD",
-        strip_prefix = "pcl-1.11.0",
+        strip_prefix = "pcl-pcl-1.11.0",
         urls = ["https://github.com/PointCloudLibrary/pcl/archive/refs/tags/pcl-1.11.0.zip"],
     )
 
