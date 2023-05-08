@@ -94,7 +94,7 @@ def _gen_pcl_config_impl(ctx):
             ("HAVE_ENSENSO 1", False),
             ("HAVE_DAVIDSDK 1", False),
             ("HAVE_PNG", True),
-            ("HAVE_QVTK", False),
+            ("HAVE_QVTK 1", False),
         ),
     )
 
