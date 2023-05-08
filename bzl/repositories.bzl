@@ -6,7 +6,7 @@ def pcl_repositories():
         http_archive,
         name = "com_github_nelhage_rules_boost",
         strip_prefix = "rules_boost-master",
-        urls = ["hhttps://github.com/ian-sixwheel/rules_boost/archive/refs/heads/master.zip"],
+        urls = ["https://github.com/ian-sixwheel/rules_boost/archive/refs/heads/master.zip"],
     )
 
     maybe(
