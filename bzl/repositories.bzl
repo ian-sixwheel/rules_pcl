@@ -5,8 +5,8 @@ def pcl_repositories():
     maybe(
         http_archive,
         name = "com_github_nelhage_rules_boost",
-        url = "https://github.com/nelhage/rules_boost/archive/96e9b631f104b43a53c21c87b01ac538ad6f3b48.tar.gz",
-        strip_prefix = "rules_boost-96e9b631f104b43a53c21c87b01ac538ad6f3b48",
+        url = "https://github.com/ian-sixwheel/rules_boost/archive/refs/heads/master.zip",
+        strip_prefix = "rules_boost-master",
     )
 
     maybe(
