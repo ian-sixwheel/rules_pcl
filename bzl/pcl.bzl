@@ -72,6 +72,7 @@ def _gen_pcl_config_impl(ctx):
         "${PCL_VERSION_PRETTY}": version_pretty_str,
         "${PCL_INDEX_SIZE}": "32",
         "${PCL_INDEX_SIGNED}": "false",
+        "${PCL_INDEX_SIGNED_STR}": "false",
         # TODO(kgreenek): Will this ever need to be different here?
         "${VTK_RENDERING_BACKEND_OPENGL_VERSION}": "1",
     }
