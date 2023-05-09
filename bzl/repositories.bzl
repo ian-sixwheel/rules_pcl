@@ -5,8 +5,9 @@ def pcl_repositories():
     maybe(
         http_archive,
         name = "com_github_nelhage_rules_boost",
-        strip_prefix = "rules_boost-master",
-        urls = ["https://github.com/ian-sixwheel/rules_boost/archive/refs/heads/master.zip"],
+        sha256 = "b64e6f7e96c5b0d7ebcb74c5ee29ab879b8ef8c37581ed0be5ff6c23168da985",
+        strip_prefix = "rules_boost-ed844db5990d21b75dc3553c057069f324b3916b",
+        urls = ["https://github.com/nelhage/rules_boost/archive/ed844db5990d21b75dc3553c057069f324b3916b.tar.gz"],
     )
 
     maybe(
@@ -71,8 +72,8 @@ def pcl_repositories():
         http_archive,
         name = "pcl",
         build_file = "@rules_pcl//third_party:pcl.BUILD",
-        strip_prefix = "pcl-pcl-1.9.0",
-        urls = ["https://github.com/PointCloudLibrary/pcl/archive/refs/tags/pcl-1.9.0.zip"],
+        strip_prefix = "pcl-pcl-1.10.0",
+        urls = ["https://github.com/PointCloudLibrary/pcl/archive/refs/tags/pcl-1.10.0.zip"],
     )
 
     maybe(
